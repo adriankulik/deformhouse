@@ -33,7 +33,7 @@ async function activateXR() {
   light.position.set(-100, -100, 50);
   scene.add(light);
   
-  let light2 = new THREE.PointLight(0xFFFFFF, 0.5;
+  let light2 = new THREE.PointLight(0xFFFFFF, 0.5);
   light.position.set(-100, 100, 50);
   scene.add(light2);
 
