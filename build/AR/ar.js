@@ -37,6 +37,10 @@ async function activateXR() {
   light.position.set(10, 150, 50);
   scene.add(light2);
 
+  let light3 = new THREE.PointLight(0xFFFFFF, 2);
+  light.position.set(100, 50, 50);
+  scene.add(light3);
+
   // Set up the WebGLRenderer, which handles rendering to the session's base layer.
   const renderer = new THREE.WebGLRenderer({
     alpha: true,
