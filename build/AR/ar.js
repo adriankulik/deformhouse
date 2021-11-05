@@ -29,19 +29,19 @@ async function activateXR() {
   const scene = new THREE.Scene();
 
   // Setting up a light source
-  let light = new THREE.PointLight(0xFFFFFF, 1);
+  let light = new THREE.PointLight(0xFFFFFF, 0.5);
   light.position.set(-100, -100, 50);
   scene.add(light);
   
-  let light2 = new THREE.PointLight(0xFFFFFF, 1);
+  let light2 = new THREE.PointLight(0xFFFFFF, 0.5;
   light.position.set(-100, 100, 50);
   scene.add(light2);
 
-  let light3 = new THREE.PointLight(0xFFFFFF, 1);
+  let light3 = new THREE.PointLight(0xFFFFFF, 0.5);
   light.position.set(100, -100, 50);
   scene.add(light3);
 
-  let light4 = new THREE.PointLight(0xFFFFFF, 1);
+  let light4 = new THREE.PointLight(0xFFFFFF, 0.5);
   light.position.set(100, 100, 50);
   scene.add(light4);
 
